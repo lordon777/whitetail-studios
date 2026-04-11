@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Custom Orders — Whitetail Studios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="img/whitetail-studios-logo.png" alt="Whitetail Studios">
+      </a>
+      <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="hero hero--short">
+    <div class="hero__image">
+      <img src="img/walnut-live-edge-slabs-matched-set.jpg" alt="Walnut live edge slabs matched set">
+    </div>
+    <div class="container">
+      <div class="hero__content">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>Contact Us</h1>
+        <p>Have a question, want a custom piece, or ready to start your project? We'd love to hear from you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Logo Banner -->
+  <section style="padding: var(--space-lg) 0; text-align: center; background: var(--warm-grey);">
+    <div class="container reveal">
+      <img src="img/whitetail-studios-logo-large.png" alt="Whitetail Studios" style="max-width: 500px; width: 80%; margin: 0 auto;">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Form -->
+        <div class="reveal">
+          <p class="eyebrow">Send a Message</p>
+          <h2 style="margin-bottom: var(--space-sm);">Request a Quote</h2>
+          <div class="divider divider--left" style="margin-bottom: var(--space-md);"></div>
+          <p style="margin-bottom: var(--space-md);">Tell us about your project. Whether you're looking for a specific piece from our shop or have a completely custom idea, we'll get back to you within 24 hours.</p>
+
+          <form class="quote-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Project</label>
+              <textarea id="message" name="message" placeholder="Describe what you're looking for — product type, dimensions, wood species, budget, timeline, or any other details that will help us give you an accurate quote." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary" style="width: 100%; justify-content: center;">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="reveal reveal-delay-2">
+          <p class="eyebrow">Other Ways to Reach Us</p>
+          <h2 style="margin-bottom: var(--space-sm);">Contact Info</h2>
+          <div class="divider divider--left" style="margin-bottom: var(--space-md);"></div>
+
+          <div class="contact-info__item">
+            <h4>Email</h4>
+            <p><a href="mailto:info@whitetailstudios.com" style="color: var(--muted-tan);">info@whitetailstudios.com</a></p>
+          </div>
+
+          <div class="contact-info__item">
+            <h4>Phone</h4>
+            <p><a href="tel:+15551234567" style="color: var(--muted-tan);">(555) 123-4567</a></p>
+          </div>
+
+          <div class="contact-info__item">
+            <h4>Location</h4>
+            <p>Your City, State 12345</p>
+            <p style="font-size: 0.85rem; color: var(--body-text); margin-top: 0.25rem;">Workshop visits by appointment only</p>
+          </div>
+
+          <div class="contact-info__item">
+            <h4>Hours</h4>
+            <p>Monday — Friday: 8am — 5pm</p>
+            <p>Saturday: By Appointment</p>
+            <p>Sunday: Closed</p>
+          </div>
+
+          <div class="contact-info__item">
+            <h4>Follow Us</h4>
+            <div style="display: flex; gap: 0.75rem; margin-top: 0.5rem;">
+              <a href="#" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--light-border); color: var(--body-text); transition: all 0.3s ease;" onmouseover="this.style.borderColor='var(--muted-tan)'; this.style.color='var(--muted-tan)';" onmouseout="this.style.borderColor='var(--light-border)'; this.style.color='var(--body-text)';" aria-label="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+              </a>
+              <a href="#" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--light-border); color: var(--body-text); transition: all 0.3s ease;" onmouseover="this.style.borderColor='var(--muted-tan)'; this.style.color='var(--muted-tan)';" onmouseout="this.style.borderColor='var(--light-border)'; this.style.color='var(--body-text)';" aria-label="Facebook">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+              <a href="#" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--light-border); color: var(--body-text); transition: all 0.3s ease;" onmouseover="this.style.borderColor='var(--muted-tan)'; this.style.color='var(--muted-tan)';" onmouseout="this.style.borderColor='var(--light-border)'; this.style.color='var(--body-text)';" aria-label="Pinterest">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.25 2.67 7.9 6.44 9.34-.09-.78-.17-1.99.04-2.84.18-.78 1.17-4.97 1.17-4.97s-.3-.6-.3-1.48c0-1.38.8-2.42 1.8-2.42.85 0 1.26.64 1.26 1.4 0 .85-.54 2.13-.82 3.31-.24.99.5 1.8 1.46 1.8 1.76 0 3.11-1.85 3.11-4.53 0-2.37-1.7-4.02-4.13-4.02-2.82 0-4.47 2.11-4.47 4.3 0 .85.33 1.76.74 2.26.08.1.09.19.07.29-.08.31-.25.99-.28 1.13-.05.18-.15.22-.34.13-1.25-.58-2.03-2.42-2.03-3.89 0-3.16 2.3-6.07 6.63-6.07 3.48 0 6.19 2.48 6.19 5.8 0 3.46-2.18 6.24-5.2 6.24-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Map placeholder -->
+          <div style="margin-top: var(--space-md); background: var(--warm-grey); aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center; border: 1.5px solid var(--light-border);">
+            <div style="text-align: center; color: var(--body-text);">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin-bottom: 0.5rem; opacity: 0.4;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <p style="font-size: 0.8rem; opacity: 0.5; text-transform: uppercase; letter-spacing: 0.1em;">Google Map Embed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="img/whitetail-studios-logo.png" alt="Whitetail Studios">
+          <p>Handcrafted custom wood furniture and live edge slabs. Each piece is unique, made with care from locally sourced hardwoods.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <div class="footer__links">
+            <a href="shop.html">All Products</a>
+            <a href="shop.html">Slabs</a>
+            <a href="shop.html">Tables</a>
+            <a href="shop.html">Shelves & Mantels</a>
+            <a href="shop.html">Rounds</a>
+          </div>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <div class="footer__links">
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+            <a href="contact.html">Custom Orders</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="mailto:info@whitetailstudios.com">info@whitetailstudios.com</a>
+            <a href="tel:+15551234567">(555) 123-4567</a>
+            <p style="padding: 0.3rem 0; font-size: 0.9rem;">Your City, ST 12345</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Whitetail Studios. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.25 2.67 7.9 6.44 9.34-.09-.78-.17-1.99.04-2.84.18-.78 1.17-4.97 1.17-4.97s-.3-.6-.3-1.48c0-1.38.8-2.42 1.8-2.42.85 0 1.26.64 1.26 1.4 0 .85-.54 2.13-.82 3.31-.24.99.5 1.8 1.46 1.8 1.76 0 3.11-1.85 3.11-4.53 0-2.37-1.7-4.02-4.13-4.02-2.82 0-4.47 2.11-4.47 4.3 0 .85.33 1.76.74 2.26.08.1.09.19.07.29-.08.31-.25.99-.28 1.13-.05.18-.15.22-.34.13-1.25-.58-2.03-2.42-2.03-3.89 0-3.16 2.3-6.07 6.63-6.07 3.48 0 6.19 2.48 6.19 5.8 0 3.46-2.18 6.24-5.2 6.24-1.02 0-1.97-.53-2.3-1.15l-.62 2.38c-.23.87-.84 1.96-1.25 2.62.94.29 1.94.45 2.97.45 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
