@@ -1,5 +1,11 @@
-# Source images (too large for git, optimized copies are in mockups/img/)
+# Source images (raw camera files, too large for git; optimized copies live in mockups/img/)
 sources/img/*.jfif
+sources/img/*.jpeg
+sources/img/*.jpg
+sources/img/*.png
+
+# Safety net: never commit raw camera dumps left in the deploy folder
+mockups/img/*.jfif
 
 # Build tools (remove before Shopify upload)
 optimize_images.py
@@ -8,3 +14,6 @@ optimize_images.py
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Claude Code transient lock
+.claude/scheduled_tasks.lock
